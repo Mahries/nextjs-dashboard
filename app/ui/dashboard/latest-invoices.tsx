@@ -1,3 +1,12 @@
+/*
+ * @Author: Mahries loritas.personal@gmail.com
+ * @Date: 2024-02-23 08:05:39
+ * @LastEditors: Mahries loritas.personal@gmail.com
+ * @LastEditTime: 2024-02-23 23:22:52
+ * @FilePath: \nextjs-dashboard\app\ui\dashboard\latest-invoices.tsx
+ * @Description: 
+ * Copyright (c) 2024 by Mahries, All Rights Reserved. 
+ */
 import { ArrowPathIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 import Image from 'next/image';
@@ -16,7 +25,7 @@ export default async function LatestInvoices({
       <div className="flex grow flex-col justify-between rounded-xl bg-gray-50 p-4">
         {/* NOTE: comment in this code when you get to this point in the course */}
 
-        {/* <div className="bg-white px-6">
+        <div className="bg-white px-6">
           {latestInvoices.map((invoice, i) => {
             return (
               <div
@@ -53,7 +62,7 @@ export default async function LatestInvoices({
               </div>
             );
           })}
-        </div> */}
+        </div>
         <div className="flex items-center pb-2 pt-6">
           <ArrowPathIcon className="h-5 w-5 text-gray-500" />
           <h3 className="ml-2 text-sm text-gray-500 ">Updated just now</h3>
